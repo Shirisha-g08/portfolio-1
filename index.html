@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G Shirisha | System Status: Online</title>
+
+    <!-- Fonts: JetBrains Mono (Tech) & Inter (Clean) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- SIDEBAR: Identity Panel -->
+        <aside class="sidebar">
+            <div class="identity-wrapper">
+                <div class="profile-header">
+                    <img src="images/image.jpg" alt="Status: Online" class="profile-photo">
+                    <div class="name-block">
+                        <h1>G Shirisha</h1>
+                        <p class="role">Sec_Eng_Profile_v1.0</p>
+                    </div>
+                </div>
+
+                <div class="quick-stats">
+                    <div class="stat-row">
+                        <span>Role</span>
+                        <span>Cybersec & SWE</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Status</span>
+                        <span style="color: #4ade80;">● Available</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Location</span>
+                        <span>India</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>CGPA</span>
+                        <span>9.58</span>
+                    </div>
+                </div>
+
+                <p class="mono-text" style="font-size: 0.8rem; margin-bottom: 2rem;">
+                    "Building secure, logical, and scalable software systems."
+                </p>
+
+                <div class="footer-links">
+                    <a href="mailto:shirishag3108@gmail.com" class="footer-link"><i class="fas fa-envelope"></i>
+                        Email</a>
+                    <a href="https://github.com/Shirisha-g08" target="_blank" class="footer-link"><i
+                            class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/shirisha-g-2a573024a/" target="_blank" class="footer-link"><i
+                            class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#identity" class="nav-item">00_IDENTITY</a>
+                <a href="#capabilities" class="nav-item">01_CAPABILITIES</a>
+                <a href="#work" class="nav-item">02_WORK_LOGS</a>
+                <a href="#research" class="nav-item">03_RESEARCH</a>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT: System Status -->
+        <main class="main-content">
+
+            <!-- 00 Identity (About) -->
+            <section id="identity" class="content-section">
+                <div class="section-header">
+                    <span class="section-num">00</span>
+                    <h2 class="section-title">Identity_Verified <i class="fas fa-check-circle"
+                            style="color: var(--accent); font-size: 1.2rem; margin-left: 10px;"></i></h2>
+                </div>
+                <div class="about-grid">
+                    <div class="terminal-box">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">user_profile.sh</span>
+                        </div>
+                        <div class="terminal-body mono-text">
+                            <p class="cmd">> Executing `whoami`</p>
+                            <p class="res">User: <span class="highlight">G_Shirisha</span></p>
+                            <p class="res">Role: <span class="highlight">Final Year Student [Computers]</span></p>
+                            <br>
+                            <p>
+                                I am an engineer focused on the intersection of **System Logic** and **Security**.
+                                While others see code as just instructions, I view it as a structure that must be
+                                resilient.
+                                With a strong academic record (9.58 CGPA) and 110+ DSA problems solved, I bring
+                                analytical depth to every commit.
+                            </p>
+                            <p class="cursor-line">_</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 01 Capabilities -->
+            <section id="capabilities" class="content-section">
+                <div class="section-header">
+                    <span class="section-num">01</span>
+                    <h2 class="section-title">System_Capabilities</h2>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-row">
+                        <h4>Programming</h4>
+                        <div class="skill-tags">Python [Scripting/Auto], Java, SQL</div>
+                    </div>
+                    <div class="skill-row">
+                        <h4>Core_Architecture</h4>
+                        <div class="skill-tags">DSA [Logic], OS, DBMS, Networks</div>
+                    </div>
+                    <div class="skill-row">
+                        <h4>Security_Ops</h4>
+                        <div class="skill-tags">Cybersecurity Fundamentals, Encryption</div>
+                    </div>
+                    <div class="skill-row">
+                        <h4>Environment</h4>
+                        <div class="skill-tags">Linux [CLI], VS Code</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 02 Work Logs (Projects) -->
+            <section id="work" class="content-section">
+                <div class="section-header">
+                    <span class="section-num">02</span>
+                    <h2 class="section-title">Case_Study_Logs</h2>
+                </div>
+
+                <div class="project-accordion">
+
+                    <!-- P1 -->
+                    <div class="project-row">
+                        <div class="project-summary">
+                            <h3>Steganography Tool</h3>
+                            <div class="project-meta">
+                                <span>Python / Cryptography</span>
+                                <i class="fas fa-chevron-down arrow"></i>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="tech-grid">
+                                <span class="label">Problem</span>
+                                <p>Secure data transmission through public channels without detection.</p>
+                            </div>
+                            <div class="tech-grid">
+                                <span class="label">Solution</span>
+                                <p>LSB Image Steganography algorithm implementation for imperceptible data hiding.</p>
+                            </div>
+                            <div class="tech-grid">
+                                <span class="label">Result</span>
+                                <p>Zero-distortion image output with encrypted payload.</p>
+                            </div>
+                            <a href="https://github.com/Shirisha-g08/Steganography" target="_blank"
+                                class="btn-code">View Source_Code</a>
+                        </div>
+                    </div>
+
+                    <!-- P2 -->
+                    <div class="project-row">
+                        <div class="project-summary">
+                            <h3>Team Formation Automation</h3>
+                            <div class="project-meta">
+                                <span>Pandas / Analytics</span>
+                                <i class="fas fa-chevron-down arrow"></i>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="tech-grid">
+                                <span class="label">Problem</span>
+                                <p>Inefficient manual sorting of student teams led to skill gaps.</p>
+                            </div>
+                            <div class="tech-grid">
+                                <span class="label">Solution</span>
+                                <p>Automated grouping script based on skill-weighting logic.</p>
+                            </div>
+                            <div class="tech-grid">
+                                <span class="label">Result</span>
+                                <p>90% reduction in admin time; balanced skill distribution.</p>
+                            </div>
+                            <a href="https://github.com/Shirisha-g08/Team-Formation-Tool" target="_blank"
+                                class="btn-code">View Source_Code</a>
+                        </div>
+                    </div>
+
+                    <!-- P3 -->
+                    <div class="project-row">
+                        <div class="project-summary">
+                            <h3>AI GitHub Issue Analyzer</h3>
+                            <div class="project-meta">
+                                <span>NLP / Automation</span>
+                                <i class="fas fa-chevron-down arrow"></i>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="tech-grid">
+                                <span class="label">Problem</span>
+                                <p>High volume of unclassified issues in open source repos.</p>
+                            </div>
+                            <div class="tech-grid">
+                                <span class="label">Solution</span>
+                                <p>Natural Language Processing model to categorize issue intent.</p>
+                            </div>
+                            <div class="tech-grid">
+                                <span class="label">Result</span>
+                                <p>Streamlined triage workflow for maintainers.</p>
+                            </div>
+                            <a href="https://github.com/Shirisha-g08/ai-github-issue-analyzer" target="_blank"
+                                class="btn-code">View Source_Code</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 03 Research -->
+            <section id="research" class="content-section">
+                <div class="section-header">
+                    <span class="section-num">03</span>
+                    <h2 class="section-title">Research_Publications</h2>
+                </div>
+
+                <div class="pub-row">
+                    <div class="pub-info">
+                        <h3>AI – A Double-Edged Sword in Cybersecurity</h3>
+                        <p>Analysis of AI-driven threats and defense mechanisms.</p>
+                    </div>
+                    <a href="https://lnkd.in/gQEnJDMA" target="_blank" class="btn-link">Read_PDF <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="pub-row">
+                    <div class="pub-info">
+                        <h3>Internship @ EZ Training</h3>
+                        <p>Mentored peers in Python & DSA optimization strategies.</p>
+                    </div>
+                    <span class="mono-text" style="font-size: 0.8rem; color: var(--text-secondary);">Verified</span>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
